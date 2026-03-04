@@ -62,11 +62,11 @@ def front_rom2():
 def leon_rom():
   print("parabens, todos o leoes estão mortos, você pode sair")
   choice = input("> ")
-  if choice == "vazar":
+  if choice == "Sair":
     liberdade()
 
 def liberdade():
-  print("manoel gomes")
+  print("Você conseguiu escapar com sucesso!")
     
 
 def cobra_rom():
@@ -79,9 +79,9 @@ def cobra_rom():
 
 
 def start(): 
-  print("You are in a dark room.")
-  print("There is a door to your right, left and front.") 
-  print("Which one do you take?")
+  print("Você esta em uma sala escura.")
+  print("Há uma porta à sua direita, esquerda e na sua frente.") 
+  print("Qual você escolheria?")
   choice = input("> ")
   if choice == "left": 
     bear_room()
